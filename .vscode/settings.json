@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/.vscode": false,
+    "**/dist": false,
+    "**/node_modules": false,
+    "*.lock": false,
+    "**/.gitignore": false,
+    "**/.babelrc": false,
+    "**/.editorconfig": false,
+    "**/LICENSE": false,
+    "**/yarn.lock": false,
+    "**/.github": true
+  },
+  "explorerExclude.backup": null
+}

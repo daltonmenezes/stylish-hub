@@ -1,0 +1,22 @@
+{
+  "name": "stylish-hub",
+  "description": "A browser extension that brings a new GitHub experience",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/daltonmenezes/stylish-hub",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": [
+      "*://github.com/*",
+      "*://*.github.com/*",
+      "*://www.slideshare.net/*"
+    ],
+    "css": ["entry.css"],
+    "js": ["entry.js"],
+    "run_at": "document_idle"
+  }],
+  "permissions": [
+    "*://github.com/*",
+    "*://*.github.com/*",
+    "*://www.slideshare.net/*"
+  ]
+}

@@ -1,0 +1,142 @@
+body { 
+  color: #737373 !important;
+}
+
+:root .Box,
+:root .Box-header,
+:root .Box.mb-3,
+:root .Box-footer,
+:root .border-bottom,
+:root .border-right,
+:root .js-user-status-container .rounded-bottom-1 .p-2 .border,
+:root .js-user-status-container.border-top-0.rounded-top-0.rounded-bottom-1.p-2.border,
+:root .border.border-gray-dark.py-2.graph-before-activity-overview,
+:root .ajax-pagination-form .ajax-pagination-btn,
+:root .user-status-container.border.position-relative.hide-sm.hide-md,
+:root .repository-lang-stats-graph,
+:root .repository-content .Box,
+:root .Box-body,
+:root .file-wrap {
+  border: none !important;
+}
+
+:root .Box {
+  border-bottom: 1px solid #ececec !important;
+}
+
+:root .repository-content .Box-body:last-of-type,
+:root #blob_contributors_box > summary {
+  padding-top: 10px !important;
+}
+
+:root #blob_contributors_box > summary {
+  vertical-align: super !important;
+}
+
+:root .pagehead.repohead.experiment-repo-nav,
+:root .timeline-comment-header,
+:root .Box-row--focus-gray.navigation-focus,
+:root .bg-gray,
+:root .orghead {
+  background-color: white !important;
+}
+
+:root .btn {
+  background-color: #f6fbff !important;
+  background-image: none !important;
+  color: #131313 !important;
+}
+
+:root .btn:hover {
+  background-color: #e4eaee !important;
+}
+
+:root .btn-primary {
+  background-color: #c6ffd3 !important;
+}
+
+:root .btn-primary:hover {
+  background-color: #a0ffb6 !important;
+}
+
+:root .avatar,
+:root .select-menu-button-gravatar img,
+:root a[data-hovercard-type="user"] img {
+  border-radius: 50% !important
+}
+
+:root .IssueLabel,
+:root .IssueLabel > .lh-condensed-ultra,
+:root .css-truncate.css-truncate-target.d-inline-block {
+  color: white !important;
+}
+
+:root .js-user-status-container.border-top-0.rounded-top-0.rounded-bottom-1.p-2,
+:root .user-status-container.border.position-relative.hide-sm.hide-md {
+  padding: 20px 0 0 0 !important;
+}
+
+:root .pb-3.px-3 {
+  padding-top: 6px !important
+}
+
+:root .text-gray.ml-2 {
+  margin-left: 0 !important;
+}
+
+:root .video-wrapper,
+:root .slide-wrapper,
+:root .editors-wrapper {
+  padding: 56.25% 0 0 0;
+  position:relative;
+}
+
+:root .video,
+:root .slides,
+:root .editors {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+:root .blob-num {
+  text-align: center !important;
+}
+
+:root .download-counts {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+
+:root .download-counts img {
+  padding-right: 4px;
+}
+
+:root .issue-feed-icon {
+  padding-right: 5px;
+}
+
+:root details div > small {
+  text-align: right !important;
+}
+
+:root dl > dt > label {
+  text-align: center !important;
+  margin-right: 20px !important;
+}
+
+:root div > file-attachment > dl > dd > div:nth-child(2) {
+  margin-left: 20px !important;
+}
+
+:root #js-repo-pjax-container details[class="details-reset"] {
+  margin-right: -2px;
+}
+
+:root .sh-ignore,
+:root .hx_reponav.reponav span:first-child a span {
+  display: none
+}

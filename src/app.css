@@ -1,4 +1,4 @@
-body { 
+body {
   color: #737373 !important;
 }
 
@@ -103,6 +103,10 @@ body {
 
 :root .blob-num {
   text-align: center !important;
+}
+
+:root .gists-counter-badge {
+  margin-left: 4px;
 }
 
 :root .download-counts {

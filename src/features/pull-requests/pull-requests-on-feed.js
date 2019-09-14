@@ -1,4 +1,4 @@
-import { isFeedPage } from '../../utils/is/is-feed-page'
+import { isFeedPage } from '../../utils/is'
 import renderPullOnFeed from '../../ui/pull-requests/render-pull-on-feed'
 import waitFor from '../../utils/wait-for'
 

@@ -6,6 +6,7 @@ import pullRequestsOnProfile from './features/pull-requests/pull-requests-on-pro
 import issuesOnFeed from './features/issues/issues-on-feed'
 import issuesOnProfile from './features/issues/issues-on-profile'
 import assetsDownloadCounter from './features/releases/assets/assets-download-counter'
+import releasesOnRepoNav from './features/releases/releases-on-repo-nav'
 
 const app = () => {
   gistsOnProfile()
@@ -13,6 +14,7 @@ const app = () => {
   pullRequestsOnProfile()
   issuesOnFeed()
   issuesOnProfile()
+  releasesOnRepoNav()
 }
 
 isFirefox

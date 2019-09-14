@@ -5,6 +5,7 @@ import pullRequestsOnFeed from './features/pull-requests/pull-requests-on-feed'
 import pullRequestsOnProfile from './features/pull-requests/pull-requests-on-profile'
 import issuesOnFeed from './features/issues/issues-on-feed'
 import issuesOnProfile from './features/issues/issues-on-profile'
+import assetsDownloadCounter from './features/releases/assets/assets-download-counter'
 
 const app = () => {
   gistsOnProfile()
@@ -19,5 +20,6 @@ isFirefox
   : ''
 
 observer(app)
+assetsDownloadCounter()
 
 export default app

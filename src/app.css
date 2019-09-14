@@ -103,13 +103,13 @@ body {
   margin-left: 4px;
 }
 
-:root .download-counts {
+:root .assets-download-counter {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 5px;
 }
 
-:root .download-counts img {
+:root .assets-download-counter svg {
   padding-right: 4px;
 }
 

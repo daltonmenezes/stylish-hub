@@ -1,4 +1,4 @@
-import config from './svg/config'
+import config from './svg/octicon-cloud/config'
 import createSVG from '../../utils/svg/create-svg'
 
 export default (assetFromAPI, assetFromDOM) => {

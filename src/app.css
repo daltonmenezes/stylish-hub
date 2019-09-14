@@ -65,12 +65,6 @@ body {
   border-radius: 50% !important
 }
 
-:root .IssueLabel,
-:root .IssueLabel > .lh-condensed-ultra,
-:root .css-truncate.css-truncate-target.d-inline-block {
-  color: white !important;
-}
-
 :root .js-user-status-container.border-top-0.rounded-top-0.rounded-bottom-1.p-2,
 :root .user-status-container.border.position-relative.hide-sm.hide-md {
   padding: 20px 0 0 0 !important;

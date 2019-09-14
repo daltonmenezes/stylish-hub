@@ -1,4 +1,4 @@
-import { isFeedPage } from '../../utils/is/is-feed-page'
+import { isFeedPage } from '../../utils/is'
 import renderIssuesOnFeed from '../../ui/issues/render-issues-on-feed'
 import waitFor from '../../utils/wait-for'
 

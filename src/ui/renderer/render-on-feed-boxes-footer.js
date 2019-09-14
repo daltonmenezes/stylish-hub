@@ -9,7 +9,7 @@ export default props => {
       wrapper.classList.add('muted-link', props.className)
       wrapper.href = `${element.parentElement.querySelector('div a').href}/${props.category}`
 
-      const svg = createSVG({ dPath: props.svg.dPath })
+      const svg = createSVG(props.svg)
 
       svg.classList.add('octicon', props.svg.className)
 

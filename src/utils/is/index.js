@@ -1,6 +1,6 @@
 import { isFirefox } from './is-firefox'
-import { isFeedPage } from './is-releases-page'
-import { isReleasesPage } from './is-releases-page'
+import { isFeedPage } from './pages/is-releases-page'
+import { isReleasesPage } from './pages/is-releases-page'
 
 export {
   isFirefox,

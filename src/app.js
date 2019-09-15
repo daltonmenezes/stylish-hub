@@ -7,6 +7,7 @@ import issuesOnFeed from './features/issues/issues-on-feed'
 import issuesOnProfile from './features/issues/issues-on-profile'
 import assetsDownloadCounter from './features/releases/assets/assets-download-counter'
 import releasesOnRepoNav from './features/releases/releases-on-repo-nav'
+import hideElements from './features/markdown/hide-elements'
 
 const app = () => {
   gistsOnProfile()
@@ -23,5 +24,6 @@ isFirefox
 
 observer(app)
 assetsDownloadCounter()
+hideElements()
 
 export default app

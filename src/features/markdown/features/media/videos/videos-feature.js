@@ -4,15 +4,17 @@ import renderMarkdownFeature from '../../../../../ui/renderer/render-markdown-fe
 
 export default () =>
   Array.from(document.querySelectorAll('p[value][alt*="type:video"]'), wrapper => {
-    const [videoID] = wrapper.getAttribute('value').split(/\/|\?v=/g).reverse()
-    const service = wrapper.getAttribute('value').match(/(?:\/\/(www.|))([^.]+)/)[2]
+    const value = wrapper.getAttribute('value')
+    const autoplay = wrapper.getAttribute('alt').includes('autoplay') ? 'autoplay=1' : ''
+    const [videoID] = value.split(/\/|\?v=/g).reverse()
+    const service = value.match(/(?:\/\/(www.|))([^.]+)/)[2]
     const canRender = videoID && service && !isToBeIgnored(wrapper)
 
     canRender
       ? renderMarkdownFeature({
           category: 'videos',
           allow: 'autoplay; encrypted-media;',
-          endpoint: videoEndpoints(videoID)[service],
+          endpoint: `${videoEndpoints(videoID)[service]}${autoplay}`,
           wrapper
         })
       : ''

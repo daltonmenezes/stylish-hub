@@ -1,6 +1,6 @@
 import createSVG from '../../utils/svg/create-svg'
 
-export default props =>
+export default (props, callback) =>
   Array.from(document.querySelectorAll('#user-repositories-list ul li'),
     element => {
       const repoPath = element.children[0].children[0].querySelector('h3 a').href
@@ -27,20 +27,24 @@ export default props =>
         .previousElementSibling
 
 
-        const licenseItem =
-          elementFooter
-            ? elementFooter.querySelector('span > svg[class*="octicon-law"]')
-            : ''
-
-        if (!licenseItem) {
-            elementFooter
-              ? elementFooter.insertAdjacentElement('afterend', span)
-              : element.children[0].lastElementChild.prepend(span)
-
-            return
-        }
-
-        licenseItem
-          ? licenseItem.insertAdjacentElement('beforebegin', span)
+      const licenseItem =
+        elementFooter
+          ? elementFooter.querySelector('span > svg[class*="octicon-law"]')
           : ''
+
+      if (!licenseItem) {
+          elementFooter
+            ? elementFooter.insertAdjacentElement('afterend', span)
+            : element.children[0].lastElementChild.prepend(span)
+
+          return
+      }
+
+      licenseItem
+        ? licenseItem.insertAdjacentElement('beforebegin', span)
+        : ''
+
+      callback
+        ? callback(element)
+        : ''
   })

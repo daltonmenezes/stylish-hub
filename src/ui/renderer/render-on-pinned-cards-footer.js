@@ -1,6 +1,6 @@
 import createSVG from '../../utils/svg/create-svg'
 
-export default props =>
+export default (props, callback) =>
   Array.from(document.querySelectorAll('.pinned-item-list-item-content div a'),
     element => {
       const wrapper = document.createElement('a')
@@ -20,4 +20,8 @@ export default props =>
         .querySelector('.pinned-item-desc + p')
 
       pinnedCardFooter.appendChild(wrapper)
+
+      callback
+        ? callback(element)
+        : ''
   })

@@ -1,6 +1,6 @@
 import createSVG from '../../utils/svg/create-svg'
 
-export default props => {
+export default (props, callback) => {
   Array.from(document.querySelectorAll('div[class*="repo-description"]'),
     el => {
       const element = el.nextElementSibling
@@ -23,5 +23,9 @@ export default props => {
       element
         .lastElementChild
         .insertAdjacentElement('beforebegin', span)
+
+      callback
+        ? callback(element)
+        : ''
     })
 }

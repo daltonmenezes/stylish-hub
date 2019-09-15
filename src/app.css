@@ -85,7 +85,7 @@ body {
   position:relative;
 }
 
-:root .video,
+:root .videos,
 :root .slides,
 :root .editors {
   position:absolute;

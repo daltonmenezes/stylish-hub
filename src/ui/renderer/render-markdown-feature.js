@@ -2,7 +2,7 @@ export default feature => {
   const {
     category,
     endpoint,
-    allow,
+    allow = '',
     wrapper
   } = feature
 

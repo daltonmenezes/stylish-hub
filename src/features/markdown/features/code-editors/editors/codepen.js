@@ -14,7 +14,7 @@ export default wrapper => {
   const theme =
     hasTheme.length >= 2
       ? hasTheme[1]
-      : 'dark'
+      : 'light'
 
   return `https://codepen.io/${user}/embed/${penID}?theme-id=${theme}${defaultTab},result`
 }

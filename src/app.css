@@ -80,14 +80,14 @@ body {
 
 :root .video-wrapper,
 :root .slide-wrapper,
-:root .editors-wrapper {
+:root .code-editor-wrapper {
   padding: 56.25% 0 0 0;
   position:relative;
 }
 
 :root .videos,
 :root .slides,
-:root .editors {
+:root .code-editors {
   position:absolute;
   top:0;
   left:0;

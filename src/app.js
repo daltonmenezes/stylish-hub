@@ -8,6 +8,7 @@ import issuesOnProfile from './features/issues/issues-on-profile'
 import assetsDownloadCounter from './features/releases/assets/assets-download-counter'
 import releasesOnRepoNav from './features/releases/releases-on-repo-nav'
 import markdownFeatures from './features/markdown/markdown-features'
+import followStatusOnProfile from './features/followers/follow-status-on-profile'
 
 const app = () => {
   gistsOnProfile()
@@ -16,6 +17,7 @@ const app = () => {
   issuesOnFeed()
   issuesOnProfile()
   releasesOnRepoNav()
+  followStatusOnProfile()
 }
 
 isFirefox

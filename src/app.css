@@ -138,3 +138,9 @@ body {
 :root .hx_reponav.reponav span:first-child a span {
   display: none
 }
+
+:root .follow-status {
+  margin-top: 10px;
+  color: #0366d6;
+  font-size: 14px;
+}

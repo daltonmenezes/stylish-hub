@@ -29,10 +29,10 @@
       "type": "firefox",
       "request": "launch",
       "reAttach": true,
-      "addonPath": "${workspaceFolder}/dist",
+      "addonPath": "${workspaceFolder}/dist/debug",
       "pathMappings": [{
         "url": "http://localhost:1234",
-        "path": "${workspaceFolder}/dist"
+        "path": "${workspaceFolder}/dist/debug"
       }],
       "preLaunchTask": "npm: start",
       "log": {

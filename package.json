@@ -4,10 +4,10 @@
   "description": "A browser extension that brings a new GitHub experience",
   "main": "entry.js",
   "scripts": {
-    "start": "npm-run-all clean copy debug:build",
-    "debug:build": "parcel build entry.js --no-cache",
-    "clean": "rm -rf dist/*",
-    "copy": "cp manifest.json dist"
+    "start": "npm-run-all debug:clean debug:copy debug:build",
+    "debug:build": "parcel build entry.js --no-cache --out-dir dist/debug",
+    "debug:copy": "cp manifest.json dist/debug/",
+    "debug:clean": "rm -rf dist/debug/*"
   },
   "repository": {
     "type": "git",

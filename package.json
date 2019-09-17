@@ -1,7 +1,7 @@
 {
   "name": "stylish-hub",
   "version": "1.0.0",
-  "description": "A browser extension that brings a new GitHub experience",
+  "description": "A browser extension that brings new GitHub features and experience",
   "main": "entry.js",
   "scripts": {
     "start": "npm-run-all debug:clean debug:copy debug:build",

@@ -18,5 +18,11 @@
     "*://github.com/*",
     "*://*.github.com/*",
     "*://www.slideshare.net/*"
-  ]
+  ],
+  "icons": {
+    "48": "icons/48x.png",
+    "64": "icons/64x.png",
+    "96": "icons/96x.png",
+   "128": "icons/128x.png"
+  }
 }

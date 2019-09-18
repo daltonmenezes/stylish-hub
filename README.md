@@ -47,9 +47,9 @@
 - [License](#license)
 
 # Installation
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish-hub/)
-- [Chrome](https://github.com/daltonmenezes/stylish-hub/blob/master/CHROME_INSTRUCTIONS.md)
-- [Opera](https://addons.opera.com/en/extensions/details/stylish-hub/)
+<a href="https://addons.mozilla.org/en-US/firefox/addon/stylish-hub/"><img src="https://i.imgur.com/imhunnJ.png" alt="firefox icon" width="50"/></a>
+<a href="https://github.com/daltonmenezes/stylish-hub/blob/master/CHROME_INSTRUCTIONS.md"><img src="https://i.imgur.com/lMue0Hb.png" alt="chrome icon"  width="50"/></a>
+<a href="https://addons.opera.com/en/extensions/details/stylish-hub/"><img src="https://i.imgur.com/t9OCThZ.png" alt="opera icon" width="50"/></a>
 
 # Features
 

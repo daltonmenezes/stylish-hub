@@ -49,10 +49,10 @@
 # Features
 
 ### Markdown
-- YouTube or Vimeo videos support
-- Codepen, CodeSandbox and Repl.it support
-- Slideshare support
-- Ability to show/hide specific content for those who uses this extension
+- [YouTube or Vimeo videos support](https://github.com/daltonmenezes/stylish-hub/wiki/Adding-Videos)
+- [Codepen, CodeSandbox and Repl.it support](https://github.com/daltonmenezes/stylish-hub/wiki/Adding-Code-Editors)
+- [Slideshare support](https://github.com/daltonmenezes/stylish-hub/wiki/Adding-Slides)
+- [Ability to show/hide specific content for those who uses this extension](https://github.com/daltonmenezes/stylish-hub/wiki/Hiding-contents)
 
 ### Gists
 - Gists badge on user's profile

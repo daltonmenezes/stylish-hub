@@ -46,6 +46,11 @@
   - [Others](#others)
 - [License](#license)
 
+# Installation
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish-hub/)
+- [Chrome](https://github.com/daltonmenezes/stylish-hub/blob/master/CHROME_INSTRUCTIONS.md)
+- [Opera](https://addons.opera.com/en/extensions/details/stylish-hub/)
+
 # Features
 
 ### Markdown
@@ -70,11 +75,6 @@
 ### Others
 - 'Follows you' text displayed on profiles that follows you
 - Improvements on UI/UX
-
-# Installation
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish-hub/)
-- [Chrome](https://github.com/daltonmenezes/stylish-hub/blob/master/CHROME_INSTRUCTIONS.md)
-- [Opera](https://addons.opera.com/en/extensions/details/stylish-hub/)
 
 # License
 [MIT License](https://github.com/daltonmenezes/stylish-hub/blob/master/LICENSE)

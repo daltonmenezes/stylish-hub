@@ -4,9 +4,10 @@
 2. Unzip the downloaded file.
 2. Open up __chrome://extensions__ in your browser and click __Developer mode__ in the top right.
 3. Click on the new button __LOAD UNPACKED__ and select the unziped folder.
-<br><br>
 
 > Note: Unpacked extensions cannot be updated automatically. To receive updates, you must download new versions, delete the old one and repeat the installation process.
+
+<br><br>
 
 # Como instalar
 

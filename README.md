@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#logo">
-    <img id="logo" src="stylish-hub-title2.png" width="50%" alt="stylish-hub logo" />
+    <img id="logo" src="https://i.imgur.com/7nEuna0.png" width="50%" alt="stylish-hub logo" />
   </a>
 </p>
 

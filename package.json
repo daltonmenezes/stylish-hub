@@ -6,11 +6,11 @@
   "scripts": {
     "start": "npm-run-all debug:clean debug:copy debug:build",
     "debug:build": "parcel build entry.js --no-cache --out-dir dist/debug",
-    "debug:copy": "cp manifest.json dist/debug/",
+    "debug:copy": "cp manifest.json dist/debug/ && cp -r dist/prod/icons dist/debug",
     "debug:clean": "rm -rf dist/debug/*",
     "prod:build": "parcel build entry.js --no-cache --no-minify --out-dir dist/prod",
     "prod:copy": "cp manifest.json dist/prod/",
-    "prod:clean": "cd dist/prod && rm -rf dist/prod/.DS_Store && ls | grep -v icons | xargs rm -rf",
+    "prod:clean": "cd dist/prod && rm -rf .DS_Store && ls | grep -v icons | xargs rm -rf",
     "prod:clean-except": "cd dist/prod && ls | grep -v .zip | grep -v icons | xargs rm -rf",
     "prod:zip": "cd dist/prod && zip -r -X stylish-hub-v.zip .",
     "build": "npm-run-all prod:clean prod:copy prod:build prod:zip prod:clean-except",
